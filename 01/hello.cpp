@@ -1,7 +1,4 @@
 #include <iostream>
-/* "iostream" is just a file, and #include just copies and pastes it
- * into our program.  iostream contains some facilities to make input
- * and output easy for us.  E.g. "std::cout". */
 
 /* main is where your program begins. */
 int main()
@@ -9,7 +6,7 @@ int main()
 	/* TODO: why do you need the quotes?  Find out what happens if you
 	 * take them out.  And what is the '\n' for?  Do some experimenting
 	 * to find out.  */
-	std::cout << "hello class.\n";
+	std::cout << "hello nibba.\n";
 	return 0;
 }
 
