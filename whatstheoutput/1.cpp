@@ -1,4 +1,5 @@
 #include <iostream>
+#include <typeinfo>
 using std::cout;
 using std::endl;
 
@@ -13,6 +14,7 @@ int main() {
     cout << x-- << endl;
     cout << y/x << endl;
     y = e;
+    cout << typeid(y).name() << endl;
     cout << y/x << endl;
     cout << x%y << endl;
     cout << (x-d)/y << endl;
